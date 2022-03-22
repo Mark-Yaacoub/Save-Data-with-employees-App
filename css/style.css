@@ -1,0 +1,209 @@
+*{
+  text-transform: capitalize;
+}
+
+button {
+  text-transform: capitalize;
+}
+
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
+
+/* dark mood */
+.dark-mood {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(0, 0, 0) !important;
+  transition: all 2s ease-in-out ;
+}
+
+.light-mood {
+  color: rgb(0, 0, 0) !important;
+  background-color: rgb(255, 255, 255) !important;
+  transition: all 2s ease-in-out ;
+}
+
+
+#dark {
+  /* float: right; */
+  /* margin: 15px; */
+}
+
+/* button for res */
+
+ul {
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    padding-top: 15px;
+    
+}
+
+li {
+  list-style: none;
+}
+
+.nav {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  box-shadow: 0 0 20px 0 rgba(1, 255, 65, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  
+}
+
+
+/* inpit serch */
+
+input[type="search"] {
+  background: transparent;
+  /* margin: 0;
+  padding: 7px 8px; */
+  font-size: 14px;
+  /* color: inherit; */
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 40px;
+}
+
+input[type="search"]::placeholder {
+  /* color: rgb(0, 0, 0); */
+}
+
+
+
+
+
+/* page home  */
+
+
+/* nav  */
+
+
+/* add contanier */
+
+.add-componant {
+
+  width: 100%;
+padding-top: 50px;
+
+}
+
+#contact {
+  background-color:  ;
+  padding: 20px;
+  margin: 40px 0;
+  box-shadow: 0 0 20px 0 rgba(1, 255, 65, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  
+
+}
+
+.labelAdd {
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  padding-top: 5px;
+  
+}
+
+.inputAdd {
+  text-align: center;
+
+}
+
+form {
+  width: 100%;
+}
+
+/* export data */
+
+
+
+.exportflex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.viewlist {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.mark {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgid{
+  
+  width: 100%;
+  border: 1px solid black;
+  height: 90px;
+}
+
+.btn-delet{
+  position: absolute;
+    top: 344px;
+    right: 249px;
+}
+
+
+
+
+/* tablr viwe data */
+
+
+th, td {
+  border: 1px solid rgb(255, 254, 254);
+  border-collapse: collapse;
+}
+.input-viwe {
+    /* background-color:antiquewhite; */
+    /* color: rgb(3, 2, 2); */
+    border-radius :15px; 
+    text-align: center;
+    /* float: right; */
+    border: 1px solid; ;
+}
+
+.tablee {
+    border: 1px antiquewhite solid;
+    
+}
+
+.img-viwe {
+
+
+  border: 1px black solid;
+
+}
+
+
+#upDataData{
+  position: fixed;
+  z-index: 500;
+  padding-left: 35px;
+  width: 100px;
+}
+
+.inn {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3px;
+}
+
+.tablee {
+  /* border: 2px solid black; */
+  padding: 7px;
+}
+.lll {
+  /* border: 2px solid black; */
+}
